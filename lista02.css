@@ -1,0 +1,158 @@
+.ex01{
+    border-left: 20em green solid;
+    border-right: 20em red solid;
+    width: 60%;
+    height: 400px;
+    letter-spacing: 3em;
+    font-size: 12px;
+    letter-spacing: 4ex;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 25px;
+}
+
+.ex01::first-letter{
+    font-size: 36px;
+    color: blue;
+    text-decoration: overline;
+}
+
+.ex01::first-line{
+
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.link{
+    padding-bottom: 1em;
+}
+
+.ex02a{
+    text-decoration: none;
+    
+}
+
+.ex02b:link{
+    text-decoration: overline;
+
+}
+
+.ex02b:active{
+    text-decoration: line-through;
+}
+
+.ex02b:visited{
+    text-decoration: underline;
+}
+.ex02c{
+    color: orange;
+    text-decoration: none;
+}
+.ex02c:hover{
+    color: green;
+}
+
+.ex02d{
+    border: #529BBC solid 5px;
+    background: black;
+    color: white;
+}
+
+.ex02d:hover{
+    border: dashed black ;
+    background: white; 
+    color: black;
+}
+
+.ex02e{
+    color: red;
+    text-decoration: none;
+}
+
+.ex02e:visited{
+    font-style: italic bold ;
+    color: orange;
+
+}
+
+
+.ex02e:hover{
+    text-decoration: underline;
+}
+
+.ex02e:active{
+    color: yellow;
+}
+
+.adidas{
+    background-image: url("adidasblack.jpeg");
+    height: 180px;
+    width: 235px;
+    background-repeat: no-repeat;
+}
+
+.adidas:hover{
+    background-image: url("adidasgree.jpeg");
+}
+
+.master{
+    background-image: url("materred.jpeg");
+    height: 150px;
+    width: 235px
+}
+
+
+.master:hover{
+    background-image: url("materyelow.jpeg");
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: dodgerblue 5px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.item1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #0669DE;
+
+}
+
+.item2{
+    margin-top: -12px;
+}
+
+.noticias{
+    color: #F14627;
+}
+
+
+.esportes{
+    color: #6FD066;
+}
+
+.entreterimento{
+    color: #FA9E41;
+}
+
+.videos{
+    color: #6886FA;
+}
+
+.traco:hover{
+    border-top: solid 5px;
+
+}
+
+.arrow{
+    background-image: url("arrowred.png");
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+}
