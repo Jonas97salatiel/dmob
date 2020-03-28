@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex9</title>
+</head>
+<style>
+    body{
+        
+        transition: all 2s;
+    }
+    input{
+        margin: .5em 0 .5em 0;
+    }
+</style>
+<body id="body">
+
+   <h1>
+       Ex 09
+   </h1>
+
+    <form name="register" method="" >
+        <fieldset id="cadastrar">
+            <legend> Cadastro </legend>
+            
+            <label for="nome"> Primeiro Nome </label><br/>
+            <input type="text" id="1"/><br/>
+
+            <label for="nome"> Segundo Nome </label><br/>
+            <input type="text" id="2"/><br/>
+            
+            <button onclick="juntarNomes()"  id="enviar" > Cadastrar </button><br/>
+            
+            <div style="padding-top: 1em;" >
+                <label for="nome"> Nome junto </label><br/>
+                <input readonly=“true” type="text" id="3"/><br/>
+            </div>
+        </fieldset>
+     </form>
+   
+    <script src="script.js"></script>
+</body>
+</html>
