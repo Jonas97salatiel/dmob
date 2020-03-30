@@ -1,5 +1,5 @@
-function juntarNomes(){
-
+function juntarNomes(e){
+  e.preventDefalt();
   
   var nome1 = document.getElementById("1").value;
   var nome2 = document.getElementById("2").value;
