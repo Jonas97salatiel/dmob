@@ -21,7 +21,7 @@
    </h1>
    <a href="../index.html">Voltar</a>
 
-    <form name="register" method="" >
+    <form name="register" >
         <fieldset id="cadastrar">
             <legend> Cadastro </legend>
             
@@ -31,14 +31,16 @@
             <label for="nome"> Segundo Nome </label><br/>
             <input type="text" id="2"/><br/>
             
-            <button onclick="juntarNomes()"  id="enviar" > Cadastrar </button><br/>
+            <button onclick="juntarNomes()"  id="enviar" type="submit"> Juntar nome </button><br/>
             
-            <div style="padding-top: 1em;" >
-                <label for="nome"> Nome junto </label><br/>
-                <input readonly=“true” type="text" id="3"/><br/>
-            </div>
+            
         </fieldset>
      </form>
+     <div style="padding-top: 1em;" >
+
+        <label for="nome"> Nome junto </label><br/>
+        <input readonly=“true” type="text" id="3"/><br/>
+    </div>
    
     <script src="script.js"></script>
 </body>
