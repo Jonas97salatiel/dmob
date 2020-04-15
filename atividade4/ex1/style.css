@@ -1,0 +1,36 @@
+body{
+    margin: 0 !important;
+}
+
+section{
+    width: 600px;
+}
+
+div{ 
+
+    border: double black 1px;
+}
+
+.div1{
+    
+    float: left;
+}
+
+.div2{
+    height: 140px;
+    padding: 10px 10px 10px 260px;
+    
+}
+
+
+
+
+@media only screen and (max-width: 400px){
+
+    .div1{
+        float: none;
+    }
+    .div2{
+        padding: 10px;
+    }
+}
