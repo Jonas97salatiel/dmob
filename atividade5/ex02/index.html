@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex2</title>
+</head>
+<style>
+    body{
+        
+        transition: all 2s;
+        
+    }
+    div{
+        width: 250px;
+    }
+    input{
+
+        margin: 1em 0 1em 0;
+        padding: 0.3em;
+        border-radius: 0.3px;
+    }
+    form{
+        margin-top: 100px;
+    }
+    
+</style>
+<body id="body">
+    <h1>Somar</h1>
+<form id="form" method="POST" action="/ex02calc">
+    <input type="text" name="n1"><br>
+    <input type="text" name="n2"><br>
+
+    <button type="submit">Somar campos</button>
+</form>
+
+<h1>Subtrair</h1>
+<form id="form" method="GET" action="/ex02calc">
+    <input type="text" name="n1"><br>
+    <input type="text" name="n2"><br>
+
+    <button type="submit">Subtrair campos</button>
+</form>
+
+
+       
+</body>
+</html>

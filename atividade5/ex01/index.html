@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex1</title>
+</head>
+<style>
+    body{
+        
+        transition: all 2s;
+        
+    }
+    div{
+        width: 250px;
+    }
+    input{
+
+        margin: 1em 0 1em 0;
+        padding: 0.3em;
+        border-radius: 0.3px;
+
+    }
+    form{
+        margin-top: 100px;
+    }
+    
+</style>
+<body id="body">
+    <script>
+        function multiForm(){
+
+            var cont = document.getElementById("n1").value;
+
+            console.log(cont);
+
+            var d = 1;
+
+            for( var c = 0; c < cont; c++){
+
+                
+
+                var input = document.createElement("input");
+
+                document.getElementById("form").appendChild(input);
+
+                document.getElementsByTagName("input")[d].setAttribute("name", "numbers");
+
+                d++;
+
+                
+            }
+
+        }
+    </script>
+        <section>
+            <div id="div">
+                <h1>
+                    Ex 01
+                </h1>
+                <input type="text" id="n1"/><br/>     
+                <button onclick="multiForm()"  id="enviar" type="submit"> número de inputs </button><br/>
+
+
+                <form id="form" method="POST" action="/soma">
+                    
+                    <button type="submit">Somar campos</button><br>
+                </form>
+
+
+               
+            </div>
+        </section>
+
+       
+</body>
+</html>
